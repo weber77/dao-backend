@@ -7,7 +7,7 @@ const dbConfig = require("./app/config/db.config");
 const sampleDao = require("./app/config/data.config");
 
 var corsOptions = {
-    origin: "https://lucid-wing-8bc186.netlify.app/"
+    origin: "https://lucid-wing-8bc186.netlify.app"
 };
 
 app.use(morgan("dev"));
